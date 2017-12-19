@@ -1,0 +1,51 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="bootstrap/customcss/ormgen.css">
+<!DOCTYPE {{title}}>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>{{title}}</title>
+</head>
+<body>
+	<div class="blankrow"></div>
+	<div class="container text-center">
+		<h1>{{title}}</h1>
+		<div class="row color1 text-white">
+			<div class="col-sm-4 align-left form-group">
+			<div><h2>Paths</h2></div>
+			<div><label class="label">Template folder</label><input id="templateFolder" type="text" class="form-control" value="/git/newtemplatedir/"></input></div>
+			<!--<div><label class="label">Destination folder</label><input id="destinationFolder" type="text" class="form-control" value="/newmodeldir/"></input></div>  -->
+			<div><label class="label">Destination folder</label><input id="destinationFolder" type="text" class="form-control" value="/git/dbprototype/src/com/databloks/model/"></input></div>
+			</div>
+			<div class="col-sm-4">
+			</div>
+			<div class="col-sm-4">
+			</div>
+		</div>
+		<div class="row color2">
+			<div class="col-sm-4 align-left form-group">
+			<div><h2>Data Source Connection</h2></div>
+			<div><label class="label">Provider Type</label><input id="providerType" type="text" class="form-control" value="mySql"></input></div>
+			<div><label class="label">Data Source</label><input id="dataSource" type="text" class="form-control" value="50.62.176.220" ></input></div>
+			<div><label class="label">User Id</label><input id="userId" type="text" class="form-control" value="dbloktutor" ></input></div>
+			<div><label class="label">Password</label><input id="password" type="text" class="form-control" value="1@valamp" ></input></div>
+			<div><label class="label">Database Name</label><input id="databaseName" type="text" class="form-control" value="dbloktutor" ></input></div>
+  			</div>
+			<div class="col-sm-4">
+			</div>
+			<div class="col-sm-4">
+			</div>
+		</div>
+		<div class="row color3">
+			<div class="col-sm-4">
+			<input id="parameters" type="button" value="Parameters" onClick="parameters();" class="text-black"></input>
+			<input id="generate" type="button" value="Generate" onClick="generate();" class="text-black" ></input>
+			</div>
+			<div class="col-sm-4">
+			</div>
+			<div class="col-sm-4">
+			</div>
+		</div>
+	</div>
+</body>
+</html>

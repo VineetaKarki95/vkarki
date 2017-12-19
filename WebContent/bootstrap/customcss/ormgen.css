@@ -1,0 +1,49 @@
+body{
+	  background-color: blue;
+}
+.container
+{
+	background-color: #00A8ff;
+}
+.col-sm-4
+{
+	padding: 10px;
+}
+.text-white
+{
+	color: white;
+}
+.text-black
+{
+	color: black;
+}
+.margin-left
+{
+	margin-left: 10px;
+}
+.align-left
+{
+	text-align: left;
+}
+.color1
+{
+	background-color: 0088ff;
+}
+.color2
+{
+	background-color: 0068ff;
+	color: white;
+}
+.color3
+{
+	background-color: 0048ff;
+	color: white;
+}
+.darkText
+{
+	color: black;	
+}
+.blankrow
+{
+	height : 5%;
+}
