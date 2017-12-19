@@ -5,6 +5,7 @@ import java.sql.ResultSet;
 import java.sql.Connection;
 
 public class BlokReader {
+	String r;
     ResultSet reader;
     providerType targetProvider;
 	Connection connectionHandle;
